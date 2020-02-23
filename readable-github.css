@@ -1,0 +1,71 @@
+/* 
+This is the readable.css for the appearance of the readable.html page which is about writing 
+readable code. It defines the text colors, background colors, fonts, positions of various 
+parts, etc. on the page. 
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Rokkitt');
+@import url('https://fonts.googleapis.com/css?family=Acme');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC'); 
+
+body {
+	background-color: white;
+	font-family: 'Rokkitt', Garamond, serif;
+	font-size: 12pt;
+}
+
+h1, h2, blockquote {
+	text-align: center;
+}
+
+h1, h2, h3 {
+	color: #4ac3fd;
+	font-family: 'Acme', Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 22pt;
+}
+
+h2, h3 {
+	text-decoration: underline;
+}
+
+h2 {
+	font-size: 18pt;
+}
+
+h3 {
+	font-size: 16pt;
+}
+
+blockquote {
+	font-family: 'Amatic Sc', cursive;
+	font-style: italic;
+	background-color: #1bd8d8;
+}
+
+hr {
+	height: 2px;
+	background-color: #4ac3fd;
+}
+
+div img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+code {
+	background-color: #c7f3dc;
+	font-family: monospace;
+}
+
+#lower-alpha-ol {
+	list-style-type: lower-alpha;
+}
+
+footer {
+	text-align: right;
+}
